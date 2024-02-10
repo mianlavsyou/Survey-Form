@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+        <form action="" id="survey-form">
+            <fieldset>
+                <label for="name-label" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <label for="email-label" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <label for="number-label" id="number-label">Age</label>
+                <input type="number" id="number" placeholder="Age" min="13" max="100" required>
+            </fieldset>
+            <fieldset>
+                <label for="">Which option best describes your current role?
+                    <select name="" id="dropdown">
+                        <option value="">Select current role</option>
+                        <option value="">Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Learner</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Other</option>
+                    </select>
+                </label>
+            </fieldset>
+           <fieldset>
+                <label for="reco">Would you like to recommend to a friend?</label>
+                    <label for=""><input type="radio" name="reco-friend" class="radio" value="Definitely" id="Definitely">Definitely</label>
+                    <label for=""><input type="radio" name="reco-friend" class="radio" value="Maybe" id="Maybe">Maybe</label>
+                    <label for=""><input type="radio" name="reco-friend" class="radio" value="Not Sure" id="Not Sure">Not Sure</label>
+           </fieldset>
+           <fieldset>
+                <label for="">What is your favorite feature?
+                    <select name="" id="">
+                        <option value="">Select an option</option>
+                        <option value="">Challeges</option>
+                        <option value="">Projects</option>
+                        <option value="">Community</option>
+                        <option value="">Open Source</option>
+                    </select>
+           </fieldset>         
+            <fieldset>
+            </label>
+                <label for="">What would you like to see improved?</label>
+                    <label for=""><input type="checkbox" class="radio" value="Front-end Projects">Front-end Projects</label>
+                    <label for=""><input type="checkbox" class="radio" value="Back-end Projects">Back-end Projects</label>
+                    <label for=""><input type="checkbox" class="radio" value="Data Visualization">Data Visualization</label>
+                    <label for=""><input type="checkbox" class="radio" value="Challenges">Challenges</label>
+                    <label for=""><input type="checkbox" class="radio" value="Open Source Community">Open Source Community</label>
+                    <label for=""><input type="checkbox" class="radio" value="Gitter help rooms">Gitter help rooms</label>
+                    <label for=""><input type="checkbox" class="radio" value="Videos">Videos</label>
+                    <label for=""><input type="checkbox" class="radio" value="City meetups">City meetups</label>
+                    <label for=""><input type="checkbox" class="radio" value="Wiki">Wiki</label>
+                    <label for=""><input type="checkbox" class="radio" value="Forum">Forum</label>
+                    <label for=""><input type="checkbox" class="radio" value="Additional Courses">Additional Courses</label>
+    <label for="">Any comments or suggestions?</label>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+            </fieldset>
+        
+            <input type="submit" id="submit">
+       
+    </div>
+</body>
